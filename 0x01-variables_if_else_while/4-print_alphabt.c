@@ -10,14 +10,18 @@
 
 int main(void)
 {
+
 char low, e, q;
+
 e = 'e';
 q = 'q';
-for (alp = 'a'; alp <= 'z'; alp++)
+
+for (low = 'a'; low <= 'z'; low++)
 {
-if ((alp != e && alp != q)
+if (low != e && low != q)
 putchar(low);
 }
 putchar('\n');
+
 return (0);
 }
