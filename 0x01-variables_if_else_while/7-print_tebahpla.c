@@ -7,12 +7,14 @@
 *
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-char alp;
-for (alp = 'z'; alp >= 'a'; alp--)
-putchar(alp);
-putchar('\');
+char low;
+
+for (low = 'z'; low >= 'a'; low--)
+putchar(low);
+putchar('\n');
+
 return (0);
 }
-
