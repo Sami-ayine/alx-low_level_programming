@@ -6,8 +6,8 @@
 #include <unistd.h>
 
 /**
-* main - Prints "anl" - Dora Korpar, 2015-10-19"*  
-*             followed by a new line, to standard error.
+* main-Prints"anl"-Dora Korpar,2015-10-19"  
+* followed by a new line, to standard error.
 *
 * Return: Always 1.
 */
