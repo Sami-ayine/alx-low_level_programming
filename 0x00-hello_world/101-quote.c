@@ -1,5 +1,10 @@
-#include <stdio.h>
+/*
+* File: 101.quote.c
+* Auth: Samuel Ayine
+*/
+
 #include <unistd.h>
+
 /**
 * main - Entry point
 *
