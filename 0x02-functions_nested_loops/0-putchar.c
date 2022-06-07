@@ -8,8 +8,8 @@ int main(void)
 {
 char str[] = "_putchar";
 int x;
-int strLen = sizeof str;
-for(x=0;x<strLen;x++)
+int strLen = sizeof(str);
+for (x = 0; x < strLen; x++)
 {
 putchar(str[x]);
 }
