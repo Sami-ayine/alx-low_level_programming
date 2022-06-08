@@ -14,7 +14,7 @@ if (n == 98)
 {
 printf("%d", n);
 printf("\n");
-break;
+break:
 }
 else
 {
@@ -34,7 +34,7 @@ break:
 }
 else
 {
-printf("%d", n)'
+printf("%d", n);
 }
 }
 }
