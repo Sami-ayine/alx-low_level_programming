@@ -4,15 +4,7 @@
 * Description: It prints the word _putchar, followed by a new line.
 * Return: 0.
 */
-int main(void)
+int _putchar(char c)
 {
-char str[] = "_putchar";
-int x;
-int strLen = (sizeof str)-1;
-for (x = o; x < strLen; x++)
-{
-putchar(str[x]);
-}
-putchar('\n');
-return (0);
+return (write(1, &c, 1));
 }
