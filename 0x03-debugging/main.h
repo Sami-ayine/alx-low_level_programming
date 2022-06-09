@@ -1,4 +1,4 @@
-positive_or_negative()
--Wall -Werror -Wextra -pedantic
-2-largest_number.c
-print_remaining_days()
+int main(void)                                                                                                                                                
+int main(void)
+int main(void)                                                                                                                                                
+void print_remaining_days(int month, int day, int year)
