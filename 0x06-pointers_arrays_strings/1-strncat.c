@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strncat - two words
@@ -11,21 +10,25 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int m = 0, i;
+	int srclen = 0, i = 0;
+	char *temp = dest, *start = src;
 
-	for (i = 0; i < 1000; i++)
+	while (*src)
 	{
-		if (dest[i] == '\0')
-		{
-			break;
-		}
-		m++;
+		srclen++;
+		src++;
 	}
 
-	for (i = 0; src[i] != '\0' && i < n; i++)
-	{
-		dest[m + 1] = src[i];
-	}
-	dest[m + 1] = '\0';
-	return (dest);
+	while (*dest)
+		dest++;
+	if (n > srclen)
+		n = srclen;
+
+	src = start;
+
+	for (; i < n; i++)
+		*dest++ = *src++;
+
+	*dest = '\0';
+	return (temp);
 }
