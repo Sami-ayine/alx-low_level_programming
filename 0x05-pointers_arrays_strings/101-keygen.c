@@ -12,7 +12,7 @@
 int main(void)
 {
 	int i, sum, n;
-	int pass[100];
+	int pass[1000];
 
 	sum = 0;
 
@@ -29,9 +29,9 @@ int main(void)
 			sum += n;
 			putchar(n + '0');
 			break;
+
 		}
 	}
 
 	return (0);
 }
-
